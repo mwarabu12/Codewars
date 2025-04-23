@@ -7,4 +7,13 @@
 //     console.log (i)   
 
 // } while (i<=10)
- typeof "person"
+ 
+const user = {
+    name : "john",
+    email : 'john@example.com',
+    teams : [
+        'Man City',
+        'PSG', 
+        'Inter'
+    ]
+}
