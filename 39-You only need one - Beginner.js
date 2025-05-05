@@ -3,5 +3,5 @@ a can contain numbers or strings. x can be either.
 Return true if the array contains the value, false if not.*/
 
 function check(a, x) {
-    return a.includes (x)
+    return a.includes (x) //We only have to check if a given value is included in a given array
 }
