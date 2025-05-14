@@ -14,7 +14,7 @@ function twoDistinctHighest(arr) {
     
     const uniqueNumbers = [...new Set(arr)]; // Removing duplicates using sets
     uniqueNumbers.sort((a, b) => b - a); // Sort descending
-  
+
     return uniqueNumbers.slice(0, 2); // Return the top 2 or fewer
   }
 
