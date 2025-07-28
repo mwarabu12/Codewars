@@ -1,0 +1,1 @@
+const reject = (array, predicate) => array.filter (item=> !predicate(item))
