@@ -1,0 +1,1 @@
+const removeDuplication = arr => arr.filter(item=> arr.indexOf(item) === arr.lastIndexOf(item))
