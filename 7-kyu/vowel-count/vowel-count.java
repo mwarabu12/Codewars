@@ -1,3 +1,4 @@
+ 
 public class Vowels {
     public static int getCount(String str) {
         int count = 0;
