@@ -1,14 +1,6 @@
 import java.util.*;
 class Kata {
-   public static List<String> friend(List<String> input){
-     List<String> friends = new ArrayList<>();
-    
-     // Your code here
-     for (String friend : input){
-       if (friend.length() == 4){
-         friends.add(friend);
-       }
-     }
-     return friends;
+   public static List<String> friend(List<String> x){
+     return x.stream().filter(name -> name.length() == 4).toList();
    }
 }
