@@ -1,3 +1,1 @@
-function booleanToString(b){
-  return String(b)
-}
+const booleanToString = b => b == true ? "true" : "false"
