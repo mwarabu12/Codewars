@@ -1,1 +1,1 @@
-const countSheeps = sheep => sheep.filter ((sheep)=> sheep === true).length;
+const countSheeps = sheep => sheep.reduce((acc, cur) => cur === true ? acc + 1 : acc, 0);
