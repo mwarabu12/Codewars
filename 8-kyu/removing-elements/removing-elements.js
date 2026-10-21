@@ -1,0 +1,1 @@
+const removeEveryOther = arr => arr.filter((element, index) => index % 2 === 0)
