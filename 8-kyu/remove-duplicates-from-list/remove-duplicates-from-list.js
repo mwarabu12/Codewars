@@ -1,1 +1,1 @@
-const distinct = a => [...new Set (a)]
+const distinct = a => [...new Set(a)]
